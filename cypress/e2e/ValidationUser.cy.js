@@ -1,7 +1,7 @@
 import { describe, it}  from 'mocha';
 import { beforeEach } from 'mocha';
-import '../../../support/commands';
-import userFomActions from '../actions/userFomActions';
+import '../support/commands';
+import userFomActions from './src/actions/userFomActions';
 
 
 describe('Users', () => { 
