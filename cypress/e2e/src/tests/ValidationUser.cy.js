@@ -10,7 +10,7 @@ describe('Users', () => {
     userFomActions.accessSite()
   
   });
-  
+
   it('Register a user with success', () => {
       //Click on register button  
       userFomActions.registerClick()
@@ -38,7 +38,6 @@ describe('Users', () => {
     })
 
   it('Try Register a user wihout all mandatory fields information', () => {
-      
       //Click on register button  
       userFomActions.registerClick()
 
