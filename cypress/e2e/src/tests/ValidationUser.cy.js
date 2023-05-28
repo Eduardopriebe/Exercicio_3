@@ -10,6 +10,7 @@ describe('Users', () => {
     userFomActions.accessSite()
   
   });
+  
   it('Register a user with success', () => {
       //Click on register button  
       userFomActions.registerClick()
